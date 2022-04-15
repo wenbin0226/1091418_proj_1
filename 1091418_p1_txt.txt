@@ -1,0 +1,17 @@
+一開始先設置一個常數MAX = 100用來判斷輸入是否超出範圍
+然後有兩個string用來存開始和結尾需要輸出的東西
+接下來進main之後印出Input字串
+並讓使用者輸入一個數字(x)
+如果數字超出範圍就直接exit
+否則就make constants用來判斷範圍
+然後直接call function
+function裡面用過濾的方式判斷範圍
+從x > 20一直過濾到1 < x <= 10
+接下來就是負的
+確定範圍後就跳到對應的cases
+並且在cases裡面用遞迴的方式重複call function
+最後會從case裡面return回到main
+此時a0即是f(x)
+然後印出Output字串
+並且將f(x)印出來
+最後再exit
